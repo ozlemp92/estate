@@ -32,7 +32,7 @@ class NavBar extends React.Component {
                         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 1 }}>
                             <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", flexGrow: 1 }}>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 1 }}>
-                                    <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/home">Özellikler</Link>
+                                    <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/specifications">Özellikler</Link>
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-around", flexGrow: 1 }}>
                                     <Link style={{ backgroundColor: "#632A86", color: "white" }} to="/home">SSS Sorular</Link>
