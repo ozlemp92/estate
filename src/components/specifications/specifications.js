@@ -32,8 +32,12 @@ class specifications extends Component {
             <>
                 <div className="flex-container" style={{ justifyContent: "flex-start" }}>
                     <div style={{ backgroundColor: "white", fontSize: "20px", lineHeight: "25px", flex:"3" }}>
+                    <div style={{ alignItems: "flex-start",flex:"0" }}>
+                                
+                                </div>
                         <Tabs defaultTab="vertical-tab-one" vertical style={{ alignItems: "flex-start",flex:"0" }}>
-                            <div style={{alignItems: "flex-start" }} >
+                     
+                            <div style={{alignItems: "flex-start" ,flex:"1"}} >
                                 <TabList style={{ alignItems: "flex-start" }}>
                                     <Tab tabFor="vertical-tab-one">  <img style={{ width: "4%", color: "white", height: "20px", position: "relative" }} src={userIcon} className="img-circle" alt=""></img>Uygulama Avantajları</Tab>
                                     <Tab tabFor="vertical-tab-two"><img style={{ width: "4%", color: "white", height: "20px", position: "relative" }} src={userIcon} className="img-circle" alt=""></img>Müşteri Yönetimi</Tab>
@@ -47,7 +51,7 @@ class specifications extends Component {
                                     <Tab tabFor="vertical-tab-ten"><img style={{ width: "4%", color: "white", height: "20px", position: "relative" }} src={userIcon} className="img-circle" alt=""></img>Uyarı Modülü</Tab>
                                 </TabList>
                             </div>
-                            <div style={{ flex:"2" }}>
+                            <div style={{ flex:"3" }}>
                                 <TabPanel tabId="vertical-tab-one">
                                     <ApplicationAdvantages />
                                 </TabPanel>
